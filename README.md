@@ -43,13 +43,13 @@ the code. Follow these steps:
    - Install Flask by running the following within 
    the desired environment. Note that the environment
    has to be activated.
-      ```
+     ```
      pip install Flask
      ```
    - Install scikit- learn by running the following within 
    the desired environment. Note that the environment
    has to be activated.
-   ```
+     ```
      pip install scikit-learn
      ```
    
@@ -75,9 +75,12 @@ To incorporate the correct paths into the program, modify the `parse_args` funct
 
 1. Navigate to the root directory of the project.
 2. Run the program using the following command:
+   ```
+   python main.py 
+     ```
 
      
-     python main.py 
+     
 
 ## Notes
 - Default settings use GPU 0. Ensure your CUDA environment is configured correctly.
